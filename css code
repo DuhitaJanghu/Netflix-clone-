@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400..840;1,400..840&family=Baloo+Bhai+2:wght@400..800&family=DM+Serif+Text:ital@0;1&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url("assets/images/bg.jpg");
+    height:70vh;
+    background-size: max(1200px,100vw);
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.main .box{
+    height:70vh;
+    width:100%;
+    opacity:0.45;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+    width:80vw;
+    margin: auto;
+    height:52px;
+}
+nav img{
+    position: relative;
+    z-index: 10;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+
+}
+.headbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:16px;
+
+}
+.lines{
+    height:calc(100% - 52px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    position: relative;
+    font-size: larger;
+    font-family: "Andada Pro", serif;
+    gap: 23px;
+    text-align: center;
+
+}
+.lines> :first-child{
+    font-weight: 900;
+    font-size: 48px;
+}
+.lines> :nth-child(2){
+    font-weight: 700;
+    font-size: 24px;
+}
+.lines> :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+}
+.bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:16px;
+}
+    
+
+.bar button{
+    background-color: red;
+    color:white;
+    
+    text-align: center;
+    font-weight: bolder;
+    border: 2px solid red;
+    padding:5px 10px;
+    border-radius: 5px;
+    
+    
+}
+.bar input{
+    background-color:white;
+    color:white;
+    padding:5px 10px;
+    border-radius: 5px;
+    opacity:0.4;
+    border:1px solid white;
+}
+    
+    
+    
+
+.red{
+    background-color: red;
+    font-weight: bolder;
+    color:white;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+.lang{
+    
+    color: white;
+    font-weight: bolder;
+    opacity:0.3
+}
+::placeholder{
+    color:rgb(5, 5, 5);
+    
+}
+.separation{
+    background-color: rgb(29, 27, 27);
+    height:1vh;
+}
+.first{
+    display:flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    max-width:100vw;
+    padding:10px;
+    text-align: left;
+    margin:auto;
+    position:relative;
+    top:10px;
+}
+.setimg{
+    position: relative;
+
+}
+.setimg img{
+    width:30vw;
+    position:relative;
+    z-index: 10;
+    
+
+    
+}
+.setimg video{
+  position: absolute;
+  width:30vw;
+
+    
+  }
+  section.first > div :first-child{
+    font-size: 3vw;
+    font-weight: bolder;
+    font-family: "Andada Pro", serif;
+  }
+  section.first > div :nth-child(2){
+    font-size:2vw;
+  }
+    
+
+section.first> div{
+    display:flex;
+    flex-direction: column;
+
+
+}
